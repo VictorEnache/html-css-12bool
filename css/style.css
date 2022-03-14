@@ -1,0 +1,30 @@
+.row>*{
+    background-color: rgb(47, 47, 236);
+    border: 1px solid white;
+    height: 50px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.row>*>*{
+    background-color: rgb(89, 223, 89);
+    border: 1px solid  rgb(47, 47, 236);
+    height: 100%;
+}
+
+.nest{
+    height: 70px;
+}
+
+.white-space{
+    height: 20px;
+}
+
+h2.col-12{
+    background-color: white;
+    color: black;
+    justify-content: flex-start;
+}
